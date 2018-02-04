@@ -23,6 +23,6 @@ public class PersonController {
 	@ResponseBody
 	@RequestMapping("/")
 	String entry() {
-		return "My second Spring Boot App";
+		return "My release on Spring Boot App";
 	}
 }
