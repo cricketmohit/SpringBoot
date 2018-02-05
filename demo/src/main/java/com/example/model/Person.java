@@ -1,7 +1,11 @@
 package com.example.model;
 
-public class Person {
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
+public class Person {
+	
+	String id;
 	String firstName;
 	String lastName;
 	int age;
@@ -22,6 +26,12 @@ public class Person {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 }

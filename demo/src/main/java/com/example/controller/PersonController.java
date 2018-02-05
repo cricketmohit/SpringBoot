@@ -11,7 +11,7 @@ import com.example.model.Person;
 public class PersonController {
 
 	@RequestMapping("/person")
-	public String Person (Model model) {
+	public String person(Model model) {
 		Person p = new Person();
 		p.setFirstName("Mohit");
 		p.setLastName("Sharma");
